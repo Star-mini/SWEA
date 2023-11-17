@@ -23,7 +23,7 @@ for test_case in range(1, T + 1):
         if(a == [] ):
             break
         i=i+1
-    print(i)
+    print(f"#{test_case} {trans_n}")
 
 ''' 
 if(a == [] ):
