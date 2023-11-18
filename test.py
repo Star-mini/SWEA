@@ -1,15 +1,9 @@
-n=int(input())
+a=input()
+a=a.strip()
+a_l=len(a)
+b=a[a_l-1::-1]
 
-for i in range(1,n+1):
-    cnt=0
-    i=str(i)
-    for j in i:
-        if ( "3" in j or "6" in j or "9" in j):
-            cnt=cnt+1
+print(b)
 
-    if cnt >0 :
-        for h in range( cnt ):
-            print("-",end='')
-    else:
-        print(i,end='')
-    print(' ',end='')
+# for i in range(a_l):
+#     b[i]=a[i]
